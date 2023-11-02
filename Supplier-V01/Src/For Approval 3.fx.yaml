@@ -1,7 +1,7 @@
 "'For Approval 3' As screen":
 
     "'Approver 3_3' As 'Approver 3'":
-        CurrentScreen: ="Inbox 3"
+        CurrentScreen: ="Inbox"
         Height: =768
 
     Arrow1_1 As arrow.backArrow:

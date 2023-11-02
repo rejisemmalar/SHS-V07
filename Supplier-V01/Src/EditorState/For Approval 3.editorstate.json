@@ -114,7 +114,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "CurrentScreen",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"Inbox 3\"",
+          "InvariantPropertyName": "CurrentScreen",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -168,7 +175,7 @@
         {
           "Category": "Data",
           "PropertyName": "CurrentScreen",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",
