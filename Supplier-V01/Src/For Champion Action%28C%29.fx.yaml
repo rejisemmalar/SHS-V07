@@ -1,6 +1,7 @@
 "'For Champion Action(C)' As screen":
 
     "'Navigation(C)_4' As 'Navigation(C)'":
+        CurrentScreen: ="Inbox"
         Height: =768
 
     Rectangle5_1 As rectangle:

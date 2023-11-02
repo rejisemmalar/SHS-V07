@@ -110,7 +110,7 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "6c25194d-6fb5-4110-9b05-3d336cd871b1",
-    "Id": "eccebcef-5522-442d-b97d-c7432a09b4d5",
+    "Id": "2c622b3b-a9c2-4532-826c-a26899fc1b74",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
     "Name": "SHS-V07",
@@ -159,6 +159,12 @@
     "Inbox(C)",
     "All Initiatives(C)",
     "For Champion Action(C)",
-    "Approved Initiatives(C)"
+    "Approved Initiatives(C)",
+    "Dashboard1(Approver1)",
+    "Inbox1(Approver1)",
+    "For Approval1(Approver1)",
+    "Dashboard2(Approver2)",
+    "Inbox2(Approver2)",
+    "For Approval2(Approver2)"
   ]
 }
