@@ -1,7 +1,7 @@
 "'Dashboard 4' As screen":
 
     "'Approver 4_1' As 'Approver 4'":
-        CurrentScreen: ="Dashboard 4"
+        CurrentScreen: ="Dashboard"
         Height: =768
 
     Container2_2 As groupContainer.manualLayoutContainer:
