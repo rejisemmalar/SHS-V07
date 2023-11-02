@@ -1,2 +1,5 @@
 "'Dashboard(C)' As screen":
 
+    "'Navigation(C)_1' As 'Navigation(C)'":
+        Height: =768
+

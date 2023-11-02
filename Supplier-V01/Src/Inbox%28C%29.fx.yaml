@@ -1,2 +1,5 @@
 "'Inbox(C)' As screen":
 
+    "'Navigation(C)_2' As 'Navigation(C)'":
+        Height: =768
+
