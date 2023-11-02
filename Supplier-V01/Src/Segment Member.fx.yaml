@@ -1,0 +1,51 @@
+"'Segment Member' As screen":
+
+    Component1_11 As Component1:
+        CurrentScreen: ="Administration"
+        Height: =768
+
+    Arrow1_6 As arrow.backArrow:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =34
+        OnSelect: =Navigate(Administration)
+        Width: =32
+        X: =291
+        Y: =147
+        ZIndex: =2
+
+    Label12_2 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =17
+        Text: ="Segment Member"
+        Width: =228
+        X: =291
+        Y: =208
+        ZIndex: =3
+
+    Search_6 As Search:
+        X: =891
+        Y: =195
+        ZIndex: =4
+
+    Icon5_5 As icon.HorizontalLine:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =1
+        Color: =RGBA(214, 223, 238, 1)
+        FocusedBorderThickness: =1
+        Height: =1
+        Icon: =Icon.HorizontalLine
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Rotation: =1
+        Width: =1050
+        X: =291
+        Y: =273
+        ZIndex: =5
+
+    "'Add doc_Button_6' As 'Add doc_Button'":
+        X: =1170
+        Y: =195
+        ZIndex: =6
+

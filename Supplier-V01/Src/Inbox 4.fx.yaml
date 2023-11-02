@@ -1,0 +1,12 @@
+"'Inbox 4' As screen":
+
+    "'Approver 4_2' As 'Approver 4'":
+        CurrentScreen: ="Inbox 4"
+        Height: =768
+        ZIndex: =2
+
+    "'Inbox 4(com)_1' As 'Inbox 4(com)'":
+        X: =278
+        Y: =134
+        ZIndex: =3
+

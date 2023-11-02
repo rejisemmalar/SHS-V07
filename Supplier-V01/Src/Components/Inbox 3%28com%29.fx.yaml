@@ -1,0 +1,55 @@
+"'Inbox 3(com)' As CanvasComponent":
+    Currentscreen: ="Text"
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =500
+    inbox_menu: |-
+        =Table(
+            {
+                Title: "For Approval",
+                TargetScreen: 'For Approval 3'
+            }
+        )
+    Width: =350
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Gallery1_1 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =481
+        Items: ='Inbox 3(com)'.inbox_menu
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =true;Navigate(ThisItem.TargetScreen,ScreenTransition.None)
+        TemplateFill: |
+            =If(ThisItem.Title='Inbox 3(com)'.Currentscreen,Color.AliceBlue)
+        TemplateSize: =57
+        Transition: =Transition.Pop
+        X: =40
+        Y: =11
+        ZIndex: =1
+
+        Label11_1 As label:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =49
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =Color.LightBlue
+            OnSelect: =Select(Parent)
+            PaddingLeft: =50
+            Size: =17
+            Text: =ThisItem.Title
+            Width: =256
+            X: =10
+            Y: =8
+            ZIndex: =1
+
+        Icon12 As icon.CheckBadge:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =32
+            Icon: =Icon.CheckBadge
+            OnSelect: =Select(Parent)
+            Width: =20
+            X: =20
+            Y: =16
+            ZIndex: =3
+

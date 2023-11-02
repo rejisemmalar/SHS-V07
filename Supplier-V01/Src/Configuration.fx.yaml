@@ -1,0 +1,22 @@
+Configuration As screen:
+
+    Component1_5 As Component1:
+        CurrentScreen: ="Configuration"
+        Height: =768
+
+    "'Configuration(com)_1' As 'Configuration(com)'":
+        Configurationcom_menu: |-
+            =Table(
+                {
+                    Title: "Upload Result",
+                    TargetScreen:'Upload Result'
+                },
+                {
+                    Title: "HACT Configuration",
+                    TargetScreen: 'HACT Configuration'
+                }
+            )
+        X: =339
+        Y: =150
+        ZIndex: =2
+

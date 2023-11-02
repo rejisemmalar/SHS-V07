@@ -1,0 +1,72 @@
+"'For Admin Action' As screen":
+
+    Component1_8 As Component1:
+        CurrentScreen: ="Inbox"
+        Height: =768
+
+    Arrow1_2 As arrow.backArrow:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =34
+        OnSelect: =Navigate(Inbox)
+        Width: =32
+        X: =291
+        Y: =147
+        ZIndex: =2
+
+    Label8_2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =46
+        Size: =17
+        Text: ="Pending Admin Approval"
+        Width: =322
+        X: =291
+        Y: =200
+        ZIndex: =3
+
+    Icon5_2 As icon.HorizontalLine:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =1
+        Color: =RGBA(214, 223, 238, 1)
+        FocusedBorderThickness: =1
+        Height: =1
+        Icon: =Icon.HorizontalLine
+        PaddingBottom: =10
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Rotation: =1
+        Width: =1050
+        X: =291
+        Y: =273
+        ZIndex: =5
+
+    Icon8_2 As icon.VerticalLine:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =39
+        Icon: =Icon.VerticalLine
+        PaddingBottom: =2
+        PaddingTop: =2
+        Width: =26
+        X: =986
+        Y: =198
+        ZIndex: =7
+
+    Icon7_2 As icon.Search:
+        Color: =RGBA(166, 166, 166, 1)
+        Height: =40
+        Icon: =Icon.Search
+        Width: =40
+        X: =1012
+        Y: =197
+        ZIndex: =8
+
+    Search_3 As Search:
+        X: =891
+        Y: =195
+        ZIndex: =9
+
+    "'Add doc_Button_3' As 'Add doc_Button'":
+        X: =1170
+        Y: =195
+        ZIndex: =10
+

@@ -1,0 +1,13 @@
+Settings As screen:
+
+    Component1_4 As Component1:
+        CurrentScreen: ="Settings"
+        Height: =768
+
+    "'Settings(com)_1' As 'Settings(com)'":
+        Settings_menu: |-
+            =Table({Title:"HACT User",TargetScreen:'HACT User'})
+        X: =284
+        Y: =134
+        ZIndex: =2
+

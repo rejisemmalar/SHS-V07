@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr35c_tables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr35c_table",
+    "MaxGetRowsCount": 500,
+    "Name": "Tables",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr35c_agentname": "AgentName",
+      "cr35c_customernumber": "CustomerNumber",
+      "cr35c_datejoined": "DateJoined",
+      "cr35c_firstname": "FirstName",
+      "cr35c_lastname": "LastName",
+      "cr35c_location": "Location",
+      "cr35c_passportnumber": "PassportNumber",
+      "cr35c_table_AsyncOperations": "System Jobs",
+      "cr35c_table_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr35c_table_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr35c_table_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr35c_table_ProcessSession": "Process Sessions",
+      "cr35c_table_SyncErrors": "Sync Errors",
+      "cr35c_tableid": "Table",
+      "cr35c_viplevel": "VIPLevel",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Tables",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Tables (Views)",
+    "Name": "_cr35c_table_views",
+    "RelatedEntityName": "Tables",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "177b0ff4-11a0-4c90-a4aa-e26e3b14e251": "Table Advanced Find View",
+      "295d204b-37eb-498a-a4f7-e5d2d46c8fc2": "Inactive Tables",
+      "49439512-5663-4f48-a7cd-62dd6543ca87": "Active Tables",
+      "a9d073c6-cebd-40ad-8627-05291811cde3": "Table Lookup View",
+      "e7655f60-7ab3-40b4-af6c-87f1d49c9cad": "Table Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Tables)",
+    "Name": "cr35c_table_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Tables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Tables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Tables)",
+    "Name": "cr35c_table_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Tables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Tables",
+    "Type": "OptionSetInfo"
+  }
+]

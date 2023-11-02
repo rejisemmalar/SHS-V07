@@ -1,0 +1,28 @@
+Inbox As screen:
+
+    Component1_2 As Component1:
+        CurrentScreen: ="Inbox"
+        Height: =768
+
+    "'Inbox(com)_1' As 'Inbox(com)'":
+        Height: =598
+        inbox_menu: |-
+            =Table(
+                {
+                    Title: "All Study",
+                    TargetScreen: 'All Study'
+                },
+                {
+                    Title: "All Initiatives",
+                    TargetScreen: 'All Initiatives'
+                },
+                {
+                    Title: "For Admin Action",
+                    TargetScreen: 'For Admin Action'
+                }
+            )
+        Width: =378
+        X: =297
+        Y: =134
+        ZIndex: =2
+

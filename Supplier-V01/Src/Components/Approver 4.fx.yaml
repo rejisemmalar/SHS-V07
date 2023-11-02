@@ -1,0 +1,124 @@
+"'Approver 4' As CanvasComponent":
+    CurrentScreen: ="Text"
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =900
+    IsSubMenuVisible: =true
+    MaxSubMenu: =100
+    Menu: |-
+        =Table(
+            {
+                Title: "Dashboard 4",
+                TargetScreen: 'Dashboard 4'
+                
+            },
+            {
+                Title: "Inbox 4",
+                TargetScreen: 'Inbox 4'     
+                
+            }
+           
+        )
+    NavType: |-
+        =1//1:Left, 2:Top, 3:Bottom
+    submenu_inbox: |-
+        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Container1_2 As groupContainer.manualLayoutContainer:
+        Height: =123
+        Width: =1366
+        ZIndex: =1
+
+        Icon1_2 As icon.Hamburger:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =52
+            Icon: =Icon.Hamburger
+            OnSelect: =Set(ShowMenu, !ShowMenu)
+            Width: =52
+            X: =39
+            Y: =39
+            ZIndex: =1
+
+        Image7_2 As image:
+            Image: =logo
+            X: =132
+            Y: =9
+            ZIndex: =2
+
+        Label4_2 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =25
+            Text: ="Supplier Happiness Survey"
+            Width: =488
+            X: =264
+            Y: =39
+            ZIndex: =3
+
+        Icon2_2 As icon.Bell:
+            Height: =52
+            Icon: =Icon.Bell
+            Width: =38
+            X: =1134
+            Y: =39
+            ZIndex: =4
+
+        Circle1_3 As circle:
+            Fill: =RGBA(0, 18, 107, 1)
+            Height: =62
+            OnSelect: =
+            Width: =60
+            X: =1228
+            Y: =28
+            ZIndex: =5
+
+        Label6_2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =52
+            OnSelect: =
+            Size: =25
+            Text: ="A"
+            Width: =34
+            X: =1241
+            Y: =33
+            ZIndex: =6
+
+    Gallery3_2 As gallery.galleryVertical:
+        BorderColor: =RGBA(204, 231, 246, 1)
+        BorderThickness: =1
+        DelayItemLoading: =true
+        Height: =777
+        Items: ='Approver 4'.Menu
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: |-
+            =true;
+            Navigate(
+                ThisItem.TargetScreen,
+                ScreenTransition.None
+            )
+        TemplateFill: =If(ThisItem.Title='Approver 4'.CurrentScreen,Color.Aquamarine,Color.White)
+        TemplatePadding: =1
+        TemplateSize: =84
+        Transition: =Transition.Pop
+        Visible: =ShowMenu
+        Width: =276
+        Y: =123
+        ZIndex: =2
+
+        Title_Parent_2 As label:
+            Height: =53
+            HoverColor: =Color.Black
+            HoverFill: =
+            OnSelect: =Select(Parent)
+            Size: =20
+            Text: =ThisItem.Title
+            Width: =248
+            X: =20
+            Y: =15
+            ZIndex: =2
+

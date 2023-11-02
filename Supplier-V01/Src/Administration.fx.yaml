@@ -1,0 +1,42 @@
+Administration As screen:
+
+    Component1_3 As Component1:
+        CurrentScreen: ="Administration"
+        Height: =768
+
+    "'Administration(com)_1' As 'Administration(com)'":
+        administration_menu: |-
+            =Table(
+                {
+                    Title: "Division",
+                    TargetScreen: Division
+                },
+                {
+                    Title: "Segment",
+                    TargetScreen: Segment
+                },
+                {
+                    Title: "Segment Member",
+                    TargetScreen: 'Segment Member'
+                },
+                {
+                    Title: "Factors",
+                    TargetScreen: Factors
+                },
+                {
+                    Title: "Subfactors",
+                    TargetScreen: Subfactors
+                },
+                {
+                    Title: "Questions",
+                    TargetScreen: Questions
+                },
+                {
+                    Title: "Options",
+                    TargetScreen: Options
+                }
+            )
+        X: =309
+        Y: =138
+        ZIndex: =2
+

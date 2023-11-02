@@ -1,0 +1,41 @@
+"'Dashboard 4' As screen":
+
+    "'Approver 4_1' As 'Approver 4'":
+        CurrentScreen: ="Dashboard 4"
+        Height: =768
+
+    Container2_2 As groupContainer.manualLayoutContainer:
+        Height: =234
+        Width: =540
+        X: =297
+        Y: =150
+        ZIndex: =2
+
+        Label5_2 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =56
+            Size: =20
+            Text: ="Contracts & Procurement"
+            Width: =380
+            X: =24
+            Y: =21
+            ZIndex: =1
+
+        Label7_2 As label:
+            Color: =RGBA(102, 102, 102, 1)
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="HACT Summation"
+            Width: =182
+            X: =78
+            Y: =87
+            ZIndex: =2
+
+        Star1_3 As star:
+            Fill: =RGBA(255, 191, 0, 1)
+            Height: =34
+            Width: =42
+            X: =36
+            Y: =90
+            ZIndex: =3
+
