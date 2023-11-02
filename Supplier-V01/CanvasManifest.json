@@ -110,7 +110,7 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "6c25194d-6fb5-4110-9b05-3d336cd871b1",
-    "Id": "2031200e-662b-4565-97ff-dca2f6b7d4a2",
+    "Id": "7f9f7258-d87c-4cc8-a952-1d92acddcc91",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
     "Name": "SHS-V07",
@@ -150,14 +150,8 @@
     "Upload Result",
     "HACT Configuration",
     "Dashboard(C)",
-    "All Initiatives(C)",
-    "Dashboard 3",
-    "Inbox 3",
-    "For Approval 3",
-    "Dashboard 4",
-    "Inbox 4",
-    "For Approval 4",
     "Inbox(C)",
+    "All Initiatives(C)",
     "For Champion Action(C)",
     "Approved Initiatives(C)",
     "Dashboard1(Approver1)",
@@ -165,6 +159,12 @@
     "For Approval1(Approver1)",
     "Dashboard2(Approver2)",
     "Inbox2(Approver2)",
-    "For Approval2(Approver2)"
+    "For Approval2(Approver2)",
+    "Dashboard 3",
+    "Inbox 3",
+    "For Approval 3",
+    "Dashboard 4",
+    "Inbox 4",
+    "For Approval 4"
   ]
 }
