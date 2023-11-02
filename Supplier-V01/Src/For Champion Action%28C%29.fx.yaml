@@ -16,7 +16,7 @@
         Height: =34
         OnSelect: =Navigate('Inbox(C)')
         Width: =32
-        X: =317
-        Y: =153
+        X: =312
+        Y: =135
         ZIndex: =3
 
