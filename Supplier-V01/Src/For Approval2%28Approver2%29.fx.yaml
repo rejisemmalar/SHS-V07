@@ -3,3 +3,11 @@
     Approver2_3 As Approver2:
         Height: =768
 
+    Rectangle5_4 As rectangle:
+        Fill: =RGBA(149, 149, 149, 1)
+        Height: =1
+        Width: =1050
+        X: =297
+        Y: =222
+        ZIndex: =2
+
