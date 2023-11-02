@@ -11,3 +11,11 @@
         Y: =222
         ZIndex: =2
 
+    Icon15 As icon.ArrowLeft:
+        Height: =44
+        Icon: =Icon.ArrowLeft
+        Width: =52
+        X: =297
+        Y: =149
+        ZIndex: =3
+
