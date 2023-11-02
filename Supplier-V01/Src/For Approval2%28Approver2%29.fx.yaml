@@ -1,6 +1,7 @@
 "'For Approval2(Approver2)' As screen":
 
     Approver2_3 As Approver2:
+        CurrentScreen: ="Inbox"
         Height: =768
 
     Rectangle5_4 As rectangle:
