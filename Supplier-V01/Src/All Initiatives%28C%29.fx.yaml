@@ -21,6 +21,8 @@
         ZIndex: =3
 
     Label21 As label:
+        FontWeight: =FontWeight.Bold
+        Size: =20
         Text: ="Initiatives"
         X: =372
         Y: =147
