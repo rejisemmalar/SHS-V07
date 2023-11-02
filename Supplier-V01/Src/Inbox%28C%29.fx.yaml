@@ -4,3 +4,10 @@
         CurrentScreen: ="Inbox"
         Height: =768
 
+    "'Inbox(comp)_1' As 'Inbox(comp)'":
+        Height: =645
+        Width: =362
+        X: =375
+        Y: =123
+        ZIndex: =2
+
