@@ -101,7 +101,7 @@
                 ThisItem.TargetScreen,
                 ScreenTransition.None
             )
-        TemplateFill: =If(ThisItem.Title='Navigation(C)'.CurrentScreen,Color.Aquamarine,Color.White)
+        TemplateFill: =If(ThisItem.Title='Navigation(C)'.CurrentScreen,Color.Aquamarine,Color.LightBlue)
         TemplatePadding: =1
         TemplateSize: =84
         Transition: =Transition.Pop

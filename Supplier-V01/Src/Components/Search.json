@@ -138,7 +138,7 @@
         "Name": "TextInput2",
         "Parent": "Search",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 195,
+        "PublishOrderIndex": 197,
         "Rules": [
           {
             "Category": "Data",
@@ -483,7 +483,7 @@
         "Name": "Icon9",
         "Parent": "Search",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 196,
+        "PublishOrderIndex": 198,
         "Rules": [
           {
             "Category": "Design",
@@ -700,7 +700,7 @@
         "Name": "Icon11",
         "Parent": "Search",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 197,
+        "PublishOrderIndex": 199,
         "Rules": [
           {
             "Category": "Design",
