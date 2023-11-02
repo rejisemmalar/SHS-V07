@@ -2,7 +2,7 @@
   "DatasetName": "default.cds",
   "EntityName": "Tables",
   "environmentVariableName": "",
-  "InstanceUrl": "https://orga8cbfd09.crm5.dynamics.com/",
+  "InstanceUrl": "https://org2d8538e0.crm5.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "cr35c_tables",
     "logicalName": "cr35c_table"
