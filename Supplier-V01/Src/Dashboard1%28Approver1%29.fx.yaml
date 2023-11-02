@@ -1,6 +1,7 @@
 "'Dashboard1(Approver1)' As screen":
 
     Approver1_1 As Approver1:
+        CurrentScreen: ="Dashboard"
         Height: =768
 
     Container5_1 As groupContainer.manualLayoutContainer:
