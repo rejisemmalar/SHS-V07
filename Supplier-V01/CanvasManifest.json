@@ -110,7 +110,7 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "6c25194d-6fb5-4110-9b05-3d336cd871b1",
-    "Id": "14bb9c81-1195-47d9-b192-dd6b89f80e8b",
+    "Id": "00c4a5f2-8821-4335-b802-79c6af01b552",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
     "Name": "SHS-V07",
@@ -154,6 +154,8 @@
     "For Approval 3",
     "Dashboard 4",
     "Inbox 4",
-    "For Approval 4"
+    "For Approval 4",
+    "Dashboard(C)",
+    "Inbox(C)"
   ]
 }
