@@ -5,16 +5,8 @@
     inbox_menu: |-
         =Table(
             {
-                Title: "All Initiatives",
-                TargetScreen: 'All Initiatives(C)'
-            },
-            {
-                Title: "For Champion Action",
-                TargetScreen: 'For Champion Action(C)'
-            },
-            {
-                Title: "Approved Initiatives",
-                TargetScreen:'Approved Initiatives(C)'
+                Title: "For Approval",
+                TargetScreen: 'For Approval1(Approver1)'
             }
         )
     Width: =276
