@@ -8,12 +8,12 @@ Approver2 As CanvasComponent:
         =Table(
             {
                 Title: "Dashboard",
-                TargetScreen: 'Dashboard1(Approver1)'
+                TargetScreen: 'Dashboard2(Approver2)'
                 
             },
             {
                 Title: "Inbox",
-                TargetScreen: 'Inbox1(Approver1)'     
+                TargetScreen: 'Inbox2(Approver2)'     
                 
             }
            
