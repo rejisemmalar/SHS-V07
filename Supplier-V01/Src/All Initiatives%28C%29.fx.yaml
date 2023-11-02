@@ -14,7 +14,7 @@
     Arrow1_14 As arrow.backArrow:
         Fill: =RGBA(0, 18, 107, 1)
         Height: =34
-        OnSelect: =Navigate(Inbox)
+        OnSelect: =Navigate('Inbox(C)')
         Width: =32
         X: =303
         Y: =147
