@@ -6,6 +6,7 @@
         ZIndex: =2
 
     "'Navigation(C)_1' As 'Navigation(C)'":
+        CurrentScreen: ="Dashboard"
         Height: =768
         ZIndex: =3
 
