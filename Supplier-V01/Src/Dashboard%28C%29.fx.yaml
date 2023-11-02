@@ -1,11 +1,11 @@
 "'Dashboard(C)' As screen":
 
-    "'Navigation(C)_1' As 'Navigation(C)'":
-        CurrentScreen: ="Dashboard"
-        Height: =768
-
     Container5 As groupContainer.manualLayoutContainer:
         X: =342
         Y: =153
         ZIndex: =2
+
+    "'Navigation(C)_1' As 'Navigation(C)'":
+        Height: =768
+        ZIndex: =3
 
