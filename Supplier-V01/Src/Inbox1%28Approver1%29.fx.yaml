@@ -1,2 +1,5 @@
 "'Inbox1(Approver1)' As screen":
 
+    Approver1_2 As Approver1:
+        Height: =768
+
