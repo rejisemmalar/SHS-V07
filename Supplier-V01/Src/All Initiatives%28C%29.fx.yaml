@@ -21,7 +21,7 @@
         ZIndex: =3
 
     Label21 As label:
-        Text: ="Text"
+        Text: ="Initiatives"
         X: =372
         Y: =147
         ZIndex: =4
