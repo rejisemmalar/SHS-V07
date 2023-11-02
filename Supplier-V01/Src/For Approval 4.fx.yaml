@@ -1,7 +1,7 @@
 "'For Approval 4' As screen":
 
     "'Approver 4_3' As 'Approver 4'":
-        CurrentScreen: ="Inbox 4"
+        CurrentScreen: ="Inbox"
         Height: =768
 
     Search_13 As Search:
