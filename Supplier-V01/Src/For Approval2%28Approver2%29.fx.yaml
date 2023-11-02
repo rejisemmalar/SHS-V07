@@ -1,2 +1,5 @@
 "'For Approval2(Approver2)' As screen":
 
+    Approver2_3 As Approver2:
+        Height: =768
+
