@@ -67,7 +67,7 @@ Approver2 As CanvasComponent:
             ZIndex: =4
 
         Circle1_6 As circle:
-            Fill: =RGBA(168, 0, 0, 1)
+            Fill: =RGBA(221, 79, 14, 1)
             Height: =62
             OnSelect: =
             Width: =60
