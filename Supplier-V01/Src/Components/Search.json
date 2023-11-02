@@ -138,7 +138,7 @@
         "Name": "TextInput2",
         "Parent": "Search",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 158,
+        "PublishOrderIndex": 79,
         "Rules": [
           {
             "Category": "Data",
@@ -483,7 +483,7 @@
         "Name": "Icon9",
         "Parent": "Search",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 159,
+        "PublishOrderIndex": 80,
         "Rules": [
           {
             "Category": "Design",
@@ -700,7 +700,7 @@
         "Name": "Icon11",
         "Parent": "Search",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 160,
+        "PublishOrderIndex": 81,
         "Rules": [
           {
             "Category": "Design",
@@ -880,7 +880,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638345063652281029",
+    "LastModifiedTimestamp": "638345075083672175",
     "Name": "Search",
     "Rules": [
       {
@@ -939,7 +939,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638345063652281029",
+  "LastModifiedTimestamp": "638345075083672175",
   "Name": "2bfbd06b732b460eb2f6cf51a5729b1d",
   "OverridableProperties": {},
   "Version": "638333186300143141"
