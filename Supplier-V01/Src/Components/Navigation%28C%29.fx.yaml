@@ -7,13 +7,13 @@
     Menu: |-
         =Table(
             {
-                Title: "Dashboard 3",
-                TargetScreen: 'Dashboard 3'
+                Title: "Dashboard",
+                TargetScreen: 'Dashboard(C)'
                 
             },
             {
-                Title: "Inbox 3",
-                TargetScreen: 'Inbox 3'     
+                Title: "Inbox",
+                TargetScreen: 'Inbox(C)'     
                 
             }
            
@@ -81,7 +81,7 @@
             Height: =52
             OnSelect: =
             Size: =25
-            Text: ="A"
+            Text: ="C"
             Width: =34
             X: =1241
             Y: =33
