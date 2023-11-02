@@ -6,7 +6,7 @@
         =Table(
             {
                 Title: "For Approval",
-                TargetScreen: 'For Approval1(Approver1)'
+                TargetScreen: 'For Approval2(Approver2)'
             }
         )
     Width: =276
