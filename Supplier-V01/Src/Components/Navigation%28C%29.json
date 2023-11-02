@@ -2449,7 +2449,7 @@
       "MaxSubMenu",
       "submenu_inbox"
     ],
-    "LastModifiedTimestamp": "638345054270273070",
+    "LastModifiedTimestamp": "638345055865100230",
     "Name": "Navigation(C)",
     "Rules": [
       {
@@ -2599,7 +2599,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638345054270273070",
+  "LastModifiedTimestamp": "638345055865100230",
   "Name": "2dd0d15337ed4a2bbac607fd9443355b",
   "OverridableProperties": {},
   "TemplateOriginalName": "af755d95fccf4fa69a76a6ff4545bf2f",
