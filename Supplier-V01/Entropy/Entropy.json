@@ -9,6 +9,7 @@
     "Inbox 3(com)": 33,
     "Inbox 4(com)": 34,
     "Inbox(com)": 35,
+    "Navigation(C)": 38,
     "Search": 36,
     "Settings(com)": 37
   },
@@ -220,6 +221,7 @@
     "Label8_5": 197,
     "Label9": 10,
     "Login Page": 145,
+    "Navigation(C)": 244,
     "Options": 156,
     "Questions": 163,
     "Rectangle1": 146,
@@ -259,7 +261,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/02/2023 06:51:43",
+  "HeaderLastSavedDateTimeUTC": "11/02/2023 06:52:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -288,6 +290,7 @@
     "the-emirates-new-logo_1": "https://docserverpwaprodeas.blob.core.windows.net/b2096358-2540-46d5-8eff-852c2f2b6203-1/resource/Assets0Images00010.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-11-02T06%3A26%3A26Z&ske=2023-11-03T06%3A41%3A26Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-03T06%3A41%3A26Z&sr=b&sp=r&sig=Xae0757iVFAkPEDzBFrex3pT%2BHf1enKOgAzBHVCtOd8%3D"
   },
   "OrderComponentMetadata": {
+    "1a81721beebd4dc8a2ce2d3eead56810": 11,
     "2af266b150a14e0db8f342db4b79e80e": 0,
     "2bfbd06b732b460eb2f6cf51a5729b1d": 9,
     "415e1786c3c94354acf26afaf63ccb82": 4,
@@ -301,6 +304,7 @@
     "e781273332364142b05b2e917ec27a03": 3
   },
   "OrderComponentTemplate": {
+    "1a81721beebd4dc8a2ce2d3eead56810": 11,
     "2af266b150a14e0db8f342db4b79e80e": 0,
     "2bfbd06b732b460eb2f6cf51a5729b1d": 9,
     "415e1786c3c94354acf26afaf63ccb82": 4,
@@ -581,6 +585,7 @@
     "Label8_5": {},
     "Label9": {},
     "Login Page": {},
+    "Navigation(C)": {},
     "Options": {},
     "Questions": {},
     "Rectangle1": {},
@@ -827,6 +832,7 @@
     "Label8_5": 96,
     "Label9": 147,
     "Login Page": 185,
+    "Navigation(C)": 0,
     "Options": 196,
     "Questions": 203,
     "Rectangle1": 0,
