@@ -4,3 +4,8 @@
         CurrentScreen: ="Dashboard"
         Height: =768
 
+    Container5 As groupContainer.manualLayoutContainer:
+        X: =342
+        Y: =153
+        ZIndex: =2
+
