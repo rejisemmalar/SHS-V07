@@ -35,3 +35,8 @@
         Y: =153
         ZIndex: =5
 
+    "'Add doc_Button_15' As 'Add doc_Button'":
+        X: =1168
+        Y: =153
+        ZIndex: =6
+
