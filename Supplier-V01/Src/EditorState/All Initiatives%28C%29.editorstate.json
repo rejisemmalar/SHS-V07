@@ -113,7 +113,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Arrow1_14",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -205,7 +205,7 @@
       "StyleName": "defaultArrowStyle",
       "Type": "ControlInfo"
     },
-    "Label21": {
+    "Label8_6": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
@@ -278,8 +278,8 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Label21",
-      "ParentIndex": 1,
+      "Name": "Label8_6",
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

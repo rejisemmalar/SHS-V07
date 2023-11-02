@@ -16,15 +16,17 @@
         Height: =34
         OnSelect: =Navigate('Inbox(C)')
         Width: =32
-        X: =303
-        Y: =147
+        X: =297
+        Y: =133
         ZIndex: =3
 
-    Label21 As label:
+    Label8_6 As label:
         FontWeight: =FontWeight.Bold
-        Size: =20
+        Height: =46
+        Size: =17
         Text: ="Initiatives"
-        X: =372
-        Y: =147
+        Width: =206
+        X: =355
+        Y: =167
         ZIndex: =4
 
