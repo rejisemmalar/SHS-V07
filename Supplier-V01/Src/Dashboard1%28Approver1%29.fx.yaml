@@ -3,3 +3,37 @@
     Approver1_1 As Approver1:
         Height: =768
 
+    Container5_1 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(153, 207, 236, 1)
+        X: =342
+        Y: =153
+        ZIndex: =2
+
+        Label17_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Size: =18
+            Text: ="Contracts"
+            X: =40
+            Y: =40
+            ZIndex: =1
+
+        Star1_4 As star:
+            Fill: =RGBA(255, 191, 0, 1)
+            Height: =44
+            Width: =50
+            X: =60
+            Y: =90
+            ZIndex: =2
+
+        Label20_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Height: =44
+            Size: =18
+            Text: ="HACT Summation"
+            Width: =260
+            X: =138
+            Y: =90
+            ZIndex: =3
+
