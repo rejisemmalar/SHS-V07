@@ -1,2 +1,42 @@
 "'For Champion Action(C)' As screen":
 
+    "'Navigation(C)_4' As 'Navigation(C)'":
+        Height: =768
+
+    Rectangle5_1 As rectangle:
+        Fill: =RGBA(149, 149, 149, 1)
+        Height: =1
+        Width: =1050
+        X: =297
+        Y: =222
+        ZIndex: =2
+
+    Arrow1_15 As arrow.backArrow:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =34
+        OnSelect: =Navigate('Inbox(C)')
+        Width: =32
+        X: =312
+        Y: =135
+        ZIndex: =3
+
+    Label8_7 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =17
+        Text: ="Study List"
+        Width: =258
+        X: =360
+        Y: =156
+        ZIndex: =4
+
+    Search_16 As Search:
+        X: =954
+        Y: =156
+        ZIndex: =5
+
+    "'Add doc_Button_16' As 'Add doc_Button'":
+        X: =1187
+        Y: =156
+        ZIndex: =6
+

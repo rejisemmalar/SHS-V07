@@ -1,2 +1,42 @@
 "'All Initiatives(C)' As screen":
 
+    "'Navigation(C)_3' As 'Navigation(C)'":
+        Height: =768
+
+    Rectangle5 As rectangle:
+        Fill: =RGBA(149, 149, 149, 1)
+        Height: =1
+        Width: =1050
+        X: =297
+        Y: =222
+        ZIndex: =2
+
+    Arrow1_14 As arrow.backArrow:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =34
+        OnSelect: =Navigate('Inbox(C)')
+        Width: =32
+        X: =297
+        Y: =133
+        ZIndex: =3
+
+    Label8_6 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =46
+        Size: =17
+        Text: ="Initiatives"
+        Width: =206
+        X: =355
+        Y: =167
+        ZIndex: =4
+
+    Search_15 As Search:
+        X: =894
+        Y: =153
+        ZIndex: =5
+
+    "'Add doc_Button_15' As 'Add doc_Button'":
+        X: =1168
+        Y: =153
+        ZIndex: =6
+
