@@ -32,12 +32,12 @@
         ZIndex: =4
 
     Search_16 As Search:
-        X: =954
-        Y: =156
+        X: =878
+        Y: =158
         ZIndex: =5
 
     "'Add doc_Button_16' As 'Add doc_Button'":
-        X: =1187
+        X: =1121
         Y: =156
         ZIndex: =6
 
