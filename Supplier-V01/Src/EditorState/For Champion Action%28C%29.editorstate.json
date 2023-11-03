@@ -46,7 +46,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Add doc_Button_16",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -854,7 +854,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Search_16",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
