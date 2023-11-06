@@ -1,0 +1,16 @@
+{
+  "dataSources": {
+    "Accounts": {
+      "entitySetName": "accounts",
+      "logicalName": "account"
+    },
+    "Tables": {
+      "entitySetName": "cr35c_tables",
+      "logicalName": "cr35c_table"
+    }
+  },
+  "environmentVariableName": "",
+  "instanceUrl": "https://orga8cbfd09.crm5.dynamics.com/",
+  "state": "Configured",
+  "webApiVersion": "v9.0"
+}
