@@ -78,15 +78,47 @@
         Y: =134
         ZIndex: =9
 
+    Button1 As button:
+        Fill: =RGBA(23, 145, 131, 1)
+        Height: =74
+        HoverColor: =RGBA(232, 9, 184, 1)
+        HoverFill: =Color.White
+        OnSelect: |+
+            =If(
+                CountRows(
+                    Filter(
+                        'Login Details',
+                        And(
+                            DataCardValue1.Text = Username,
+                            DataCardValue2.Text = Password
+                        )
+                    )
+                ) = 1,
+                Navigate(
+                    Dashboard,
+                   ScreenTransition.None
+                ),
+                Notify(
+                    "Invalid Login Details",
+                    NotificationType.Error
+                )
+            );
+            
+        Size: =20
+        Text: ="Login"
+        Width: =230
+        X: =994
+        Y: =606
+        ZIndex: =11
+
     Form1 As form:
         DataSource: ='Login Details'
-        DefaultMode: =FormMode.New
-        Height: =286
+        Height: =296
         NumberOfColumns: =1
-        Width: =441
-        X: =889
-        Y: =271
-        ZIndex: =10
+        Width: =444
+        X: =887
+        Y: =222
+        ZIndex: =12
 
         Username_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
@@ -99,17 +131,14 @@
             MaxLength: =DataSourceInfo([@'Login Details'], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue1.Text
-            Width: =441
+            Width: =444
             X: =0
             Y: =0
-            ZIndex: =11
+            ZIndex: =13
 
             DataCardKey1 As label:
                 AutoHeight: =true
-                Color: =RGBA(255, 255, 255, 1)
-                FontWeight: =FontWeight.Bold
                 Height: =34
-                Size: =20
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -119,25 +148,19 @@
 
             DataCardValue1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Height: =55
-                HoverBorderColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
-                PressedBorderColor: =//Self.HoverBorderColor
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =17
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =72
+                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
                 ZIndex: =2
 
             ErrorMessage1 As label:
@@ -176,17 +199,14 @@
             MaxLength: =DataSourceInfo([@'Login Details'], DataSourceInfo.MaxLength, "Password")
             Required: =true
             Update: =DataCardValue2.Text
-            Width: =441
+            Width: =444
             X: =0
             Y: =1
-            ZIndex: =11
+            ZIndex: =13
 
             DataCardKey2 As label:
                 AutoHeight: =true
-                Color: =RGBA(255, 255, 255, 1)
-                FontWeight: =FontWeight.Bold
                 Height: =34
-                Size: =20
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -196,25 +216,19 @@
 
             DataCardValue2 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Height: =55
-                HoverBorderColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
-                Mode: =TextMode.Password
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =17
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =30
-                Y: =72
+                X: =18
+                Y: =66
                 ZIndex: =2
 
             ErrorMessage2 As label:
@@ -241,37 +255,4 @@
                 Wrap: =false
                 Y: =DataCardKey2.Y
                 ZIndex: =4
-
-    Button1 As button:
-        Fill: =RGBA(23, 145, 131, 1)
-        Height: =74
-        HoverColor: =RGBA(232, 9, 184, 1)
-        HoverFill: =Color.White
-        OnSelect: |+
-            =If(
-                CountRows(
-                    Filter(
-                        'Login Details',
-                        And(
-                            DataCardValue1.Text = Username,
-                            DataCardValue2.Text = Password
-                        )
-                    )
-                ) = 1,
-                Navigate(
-                    Dashboard,
-                   ScreenTransition.None
-                ),
-                Notify(
-                    "Invalid Login Details",
-                    NotificationType.Error
-                )
-            );
-            
-        Size: =20
-        Text: ="Login"
-        Width: =230
-        X: =994
-        Y: =606
-        ZIndex: =11
 
