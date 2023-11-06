@@ -78,3 +78,9 @@
         Y: =134
         ZIndex: =9
 
+    Form1 As form:
+        Width: =441
+        X: =889
+        Y: =201
+        ZIndex: =10
+
