@@ -78,11 +78,3 @@
         Y: =134
         ZIndex: =9
 
-    Button1 As button:
-        Fill: =RGBA(54, 176, 75, 1)
-        OnSelect: =Navigate(Dashboard)
-        Text: ="Login"
-        X: =998
-        Y: =675
-        ZIndex: =10
-
