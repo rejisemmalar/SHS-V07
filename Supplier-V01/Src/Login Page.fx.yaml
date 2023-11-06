@@ -113,6 +113,7 @@
 
     Form1 As form:
         DataSource: ='Login Details'
+        DefaultMode: =FormMode.New
         Height: =296
         NumberOfColumns: =1
         Width: =444
