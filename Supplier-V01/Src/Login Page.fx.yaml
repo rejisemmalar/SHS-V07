@@ -80,6 +80,7 @@
 
     Form1 As form:
         DataSource: ='Login Details'
+        DefaultMode: =FormMode.New
         Height: =286
         NumberOfColumns: =1
         Width: =441
@@ -117,17 +118,19 @@
 
             DataCardValue1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =55
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =25
+                Size: =20
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -189,16 +192,19 @@
 
             DataCardValue2 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =55
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
+                Size: =20
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
