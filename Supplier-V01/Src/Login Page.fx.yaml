@@ -260,7 +260,6 @@
                 ) = 1,
                 Navigate(
                     Dashboard,
-                    'Dashboard(C)',
                    ScreenTransition.None
                 ),
                 Notify(
