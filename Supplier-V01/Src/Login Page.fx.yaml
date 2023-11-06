@@ -114,11 +114,11 @@
     Form1 As form:
         DataSource: ='Login Details'
         DefaultMode: =FormMode.New
-        Height: =296
+        Height: =330
         NumberOfColumns: =1
         Width: =444
         X: =887
-        Y: =222
+        Y: =250
         ZIndex: =12
 
         Username_DataCard1 As typedDataCard.textualEditCard:
@@ -139,7 +139,10 @@
 
             DataCardKey1 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -152,16 +155,20 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =55
+                HoverBorderColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
+                Size: =17
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Y: =72
                 ZIndex: =2
 
             ErrorMessage1 As label:
@@ -207,7 +214,10 @@
 
             DataCardKey2 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
                 Height: =34
+                Size: =20
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
@@ -220,16 +230,21 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =55
+                HoverBorderColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
+                Mode: =TextMode.Password
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
+                Size: =17
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
-                X: =18
-                Y: =66
+                X: =30
+                Y: =76
                 ZIndex: =2
 
             ErrorMessage2 As label:
