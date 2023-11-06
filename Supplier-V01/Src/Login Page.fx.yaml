@@ -261,7 +261,7 @@
                 Navigate(
                     Dashboard,
                    ScreenTransition.None
-                ), Navigate('Dashboard(C)',ScreenTransition.None),
+                ),
                 Notify(
                     "Invalid Login Details",
                     NotificationType.Error
