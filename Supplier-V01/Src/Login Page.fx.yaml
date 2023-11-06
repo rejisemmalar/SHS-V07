@@ -107,6 +107,7 @@
             DataCardKey1 As label:
                 AutoHeight: =true
                 Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -123,9 +124,11 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =55
+                HoverBorderColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
+                PressedBorderColor: =//Self.HoverBorderColor
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
@@ -181,6 +184,7 @@
             DataCardKey2 As label:
                 AutoHeight: =true
                 Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -197,6 +201,7 @@
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =55
+                HoverBorderColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
