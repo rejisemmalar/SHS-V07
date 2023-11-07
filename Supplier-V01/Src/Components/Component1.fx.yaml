@@ -150,6 +150,12 @@ Component1 As CanvasComponent:
         Items: =Component1.CircleMenu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: |-
+            =true;
+            Navigate(
+                ThisItem.TargetScreen,
+                ScreenTransition.None
+            )
         TemplateSize: =142
         Visible: =Showdropdown
         X: =726
