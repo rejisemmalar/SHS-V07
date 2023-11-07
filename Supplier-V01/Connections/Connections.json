@@ -6,6 +6,13 @@
       "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
     },
     "datasets": {
+      "https://4lx8z8.sharepoint.com/sites/SHS-V07": {
+        "dataSources": {
+          "Login Details_1": {
+            "tableName": "eaf18201-ccb3-4787-b4ec-6c5615168157"
+          }
+        }
+      },
       "https://y00q1.sharepoint.com/sites/SHS-V07": {
         "dataSources": {
           "Login Details": {
@@ -15,7 +22,8 @@
       }
     },
     "dataSources": [
-      "Login Details"
+      "Login Details",
+      "Login Details_1"
     ],
     "dependencies": {},
     "dependents": [],

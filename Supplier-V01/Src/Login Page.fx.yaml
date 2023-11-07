@@ -112,13 +112,13 @@
         ZIndex: =11
 
     Form1 As form:
-        DataSource: ='Login Details'
+        DataSource: ='Login Details_1'
         DefaultMode: =FormMode.New
-        Height: =334
+        Height: =380
         NumberOfColumns: =1
-        Width: =454
-        X: =882
-        Y: =201
+        Width: =470
+        X: =861
+        Y: =180
         ZIndex: =12
 
         Username_DataCard1 As typedDataCard.textualEditCard:
@@ -126,13 +126,13 @@
             DataField: ="Title"
             Default: =ThisItem.Username
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Login Details'],DataSourceInfo.DisplayName,"Title")
+            DisplayName: =DataSourceInfo([@'Login Details_1'],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Login Details'], DataSourceInfo.MaxLength, "Title")
+            MaxLength: =DataSourceInfo([@'Login Details_1'], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue1.Text
-            Width: =454
+            Width: =470
             X: =0
             Y: =0
             ZIndex: =13
@@ -194,13 +194,13 @@
             DataField: ="Password"
             Default: =ThisItem.Password
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Login Details'],DataSourceInfo.DisplayName,"Password")
+            DisplayName: =DataSourceInfo([@'Login Details_1'],DataSourceInfo.DisplayName,"Password")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Login Details'], DataSourceInfo.MaxLength, "Password")
+            MaxLength: =DataSourceInfo([@'Login Details_1'], DataSourceInfo.MaxLength, "Password")
             Required: =true
             Update: =DataCardValue2.Text
-            Width: =454
+            Width: =470
             X: =0
             Y: =1
             ZIndex: =13
