@@ -150,7 +150,8 @@ Component1 As CanvasComponent:
         Items: =Component1.CircleMenu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        TemplateSize: =142
+        Visible: =Showdropdown
         X: =726
         Y: =136
         ZIndex: =3
