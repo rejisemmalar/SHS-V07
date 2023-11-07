@@ -114,7 +114,7 @@
         "Name": "Button2",
         "Parent": "Add doc_Button",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2,
+        "PublishOrderIndex": 249,
         "Rules": [
           {
             "Category": "Data",
@@ -397,7 +397,7 @@
         "Name": "Icon8",
         "Parent": "Add doc_Button",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 3,
+        "PublishOrderIndex": 250,
         "Rules": [
           {
             "Category": "Design",
@@ -584,7 +584,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638349359124402722",
+    "LastModifiedTimestamp": "638349375637402859",
     "Name": "Add doc_Button",
     "Rules": [
       {
@@ -643,7 +643,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638349359124402722",
+  "LastModifiedTimestamp": "638349375637402859",
   "Name": "2af266b150a14e0db8f342db4b79e80e",
   "OverridableProperties": {},
   "Version": "638333195104792096"
