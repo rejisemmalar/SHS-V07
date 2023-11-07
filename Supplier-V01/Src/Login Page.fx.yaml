@@ -111,3 +111,13 @@
         Y: =606
         ZIndex: =11
 
+    Form1 As form:
+        DataSource: ='Login Details_1'
+        DefaultMode: =FormMode.New
+        Height: =380
+        NumberOfColumns: =1
+        Width: =470
+        X: =861
+        Y: =180
+        ZIndex: =12
+
