@@ -39,3 +39,7 @@ Dashboard As screen:
             Y: =90
             ZIndex: =3
 
+    Component1_19 As Component1:
+        Height: =768
+        ZIndex: =3
+
