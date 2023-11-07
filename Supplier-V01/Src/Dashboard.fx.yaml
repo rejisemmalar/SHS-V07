@@ -40,7 +40,7 @@ Dashboard As screen:
             ZIndex: =3
 
     Component1_19 As Component1:
-        CurrentScreen: ="MyProfile"
+        CurrentScreen: ="Dashboard"
         Height: =768
         ZIndex: =3
 
