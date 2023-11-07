@@ -147,7 +147,7 @@ Component1 As CanvasComponent:
     Gallery6 As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =667
-        Items: =CustomGallerySample
+        Items: =Component1.CircleMenu
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
@@ -157,7 +157,7 @@ Component1 As CanvasComponent:
 
         Label21 As label:
             OnSelect: =Select(Parent)
-            Text: =ThisItem.SampleHeading
+            Text: =ThisItem.Title
             X: =207
             Y: =36
             ZIndex: =1
