@@ -83,8 +83,9 @@
         Height: =74
         HoverColor: =RGBA(232, 9, 184, 1)
         HoverFill: =Color.White
-        OnSelect: |+
-            =If(
+        OnSelect: |
+            =
+            If(
                 CountRows(
                     Filter(
                         'Login Details',
@@ -103,7 +104,6 @@
                     NotificationType.Error
                 )
             );
-            
         Size: =20
         Text: ="Login"
         Width: =230
