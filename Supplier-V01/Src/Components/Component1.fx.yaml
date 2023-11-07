@@ -1,6 +1,15 @@
 Component1 As CanvasComponent:
     CircleMenu: |-
-        =Table({Title: "MyProfile",TargetScreen:App.ActiveScreen},{Title:"Logout",TargetScreen:App.ActiveScreen})
+        =Table(
+            {
+                Title: "MyProfile",
+                TargetScreen: App.ActiveScreen
+            },
+            {
+                Title: "Logout",
+                TargetScreen: App.ActiveScreen
+            }
+        )
     CurrentScreen: ="Text"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =900
