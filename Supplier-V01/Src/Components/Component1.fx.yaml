@@ -1,4 +1,6 @@
 Component1 As CanvasComponent:
+    CircleMenu: |-
+        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
     CurrentScreen: ="Text"
     Fill: =RGBA(0, 0, 0, 0)
     Height: =900
@@ -132,4 +134,22 @@ Component1 As CanvasComponent:
             Text: =ThisItem.Title
             Width: =280
             ZIndex: =2
+
+    Gallery6 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =667
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        X: =726
+        Y: =136
+        ZIndex: =3
+
+        Label21 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.SampleHeading
+            X: =207
+            Y: =36
+            ZIndex: =1
 
