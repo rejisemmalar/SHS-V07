@@ -80,7 +80,7 @@ Component1 As CanvasComponent:
         Circle1_1 As circle:
             Fill: =RGBA(237, 5, 136, 1)
             Height: =62
-            OnSelect: =
+            OnSelect: =Set(Showdropdown, !Showdropdown)
             Width: =60
             X: =1228
             Y: =28
