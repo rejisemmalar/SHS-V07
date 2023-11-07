@@ -151,7 +151,8 @@
                 ZIndex: =1
 
             DataCardValue1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =//If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =0
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
