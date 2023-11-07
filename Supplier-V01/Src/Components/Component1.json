@@ -61,7 +61,7 @@
             "Name": "Image7",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 206,
+            "PublishOrderIndex": 207,
             "Rules": [
               {
                 "Category": "Data",
@@ -301,7 +301,7 @@
             "Name": "Circle1_1",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 207,
+            "PublishOrderIndex": 208,
             "Rules": [
               {
                 "Category": "Design",
@@ -503,7 +503,7 @@
             "Name": "Label6",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 208,
+            "PublishOrderIndex": 209,
             "Rules": [
               {
                 "Category": "Data",
@@ -818,7 +818,7 @@
             "Name": "Icon1",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 209,
+            "PublishOrderIndex": 210,
             "Rules": [
               {
                 "Category": "Design",
@@ -1059,7 +1059,7 @@
             "Name": "Label4",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 210,
+            "PublishOrderIndex": 211,
             "Rules": [
               {
                 "Category": "Data",
@@ -1353,7 +1353,7 @@
             "Name": "Icon2",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 211,
+            "PublishOrderIndex": 212,
             "Rules": [
               {
                 "Category": "Design",
@@ -1555,7 +1555,7 @@
         "Name": "Container1",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 205,
+        "PublishOrderIndex": 206,
         "Rules": [
           {
             "Category": "Design",
@@ -1743,7 +1743,7 @@
             "Name": "galleryTemplate3",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 213,
+            "PublishOrderIndex": 214,
             "Rules": [
               {
                 "Category": "Design",
@@ -1881,7 +1881,7 @@
             "Name": "Title_Parent",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 214,
+            "PublishOrderIndex": 215,
             "Rules": [
               {
                 "Category": "Data",
@@ -2232,7 +2232,7 @@
         "Name": "Gallery3",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 212,
+        "PublishOrderIndex": 213,
         "Rules": [
           {
             "Category": "Data",
@@ -2435,7 +2435,7 @@
             "Name": "galleryTemplate6",
             "Parent": "Gallery6",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 216,
+            "PublishOrderIndex": 217,
             "Rules": [
               {
                 "Category": "Design",
@@ -2518,7 +2518,7 @@
             "Name": "Label21",
             "Parent": "Gallery6",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 217,
+            "PublishOrderIndex": 218,
             "Rules": [
               {
                 "Category": "Data",
@@ -2833,7 +2833,7 @@
         "Name": "Gallery6",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 215,
+        "PublishOrderIndex": 216,
         "Rules": [
           {
             "Category": "Data",
@@ -3059,7 +3059,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638349457090067193",
+    "LastModifiedTimestamp": "638349458200059394",
     "Name": "Component1",
     "Rules": [
       {
@@ -3100,7 +3100,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "Table(\n    {\n        Title: \"MyProfile\",\n        TargetScreen: App.ActiveScreen\n    },\n    {\n        Title: \"Logout\",\n        TargetScreen: App.ActiveScreen\n    }\n)",
+        "InvariantScript": "Table(\n    {\n        Title: \"MyProfile\",\n        TargetScreen:'MyProfile'\n    },\n    {\n        Title: \"Logout\",\n        TargetScreen: 'Login'\n    }\n)",
         "Property": "CircleMenu",
         "RuleProviderType": "System"
       },
@@ -3224,7 +3224,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638349457090067193",
+  "LastModifiedTimestamp": "638349458200059394",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"

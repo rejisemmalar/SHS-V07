@@ -192,7 +192,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "Component1_19",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -300,7 +300,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container2",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

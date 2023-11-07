@@ -3,11 +3,11 @@ Component1 As CanvasComponent:
         =Table(
             {
                 Title: "MyProfile",
-                TargetScreen: App.ActiveScreen
+                TargetScreen:'MyProfile'
             },
             {
                 Title: "Logout",
-                TargetScreen: App.ActiveScreen
+                TargetScreen: 'Login'
             }
         )
     CurrentScreen: ="Text"
