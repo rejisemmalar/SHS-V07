@@ -1,5 +1,5 @@
 {
-  "e4008ebf-386d-4185-9d11-5a2e094bd0b8": {
+  "505b08a9-45df-4c16-a281-d3c9cdd0db49": {
     "connectionRef": {
       "displayName": "SharePoint",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
@@ -19,6 +19,6 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "e4008ebf-386d-4185-9d11-5a2e094bd0b8"
+    "id": "505b08a9-45df-4c16-a281-d3c9cdd0db49"
   }
 }
