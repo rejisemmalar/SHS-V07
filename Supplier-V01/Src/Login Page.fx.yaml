@@ -114,11 +114,11 @@
     Form1 As form:
         DataSource: ='Login Details'
         DefaultMode: =FormMode.New
-        Height: =286
+        Height: =260
         NumberOfColumns: =1
         Width: =390
         X: =894
-        Y: =220
+        Y: =296
         ZIndex: =12
 
         Username_DataCard1 As typedDataCard.textualEditCard:
